@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-color:#000000;
+}
+
+#nav{
+    width: 100%;
+    padding: 30px 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.block-text{
+    width: fit-content;
+    color: #fff;
+    text-align: right;
+}
+
+.block-text h5{
+    font-size: 1vw;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 55px;
+}
+
+#heading{
+    padding: 0 30px;
+    margin-top: 95px;
+}
+
+#heading h1{
+    color: #fff;
+    line-height: 0.9;
+    opacity: .6;
+    text-transform: uppercase;
+    font-size: 9vw;
+    font-weight: 700;
+}
+
+#heading #secondh1{
+    margin-left: 8.6vw;
+}
+
+#mini-heading{
+    color: #fff;
+    margin-top: 100px;
+    padding-right: 30px;
+}
+
+#mini-heading h5{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 2.3;
+    letter-spacing: 1px;
+}
+
+#hero-footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0 30px;
+}
+
+#hero-footer a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#icon-set{
+    display: flex;
+    gap: 5px;
+}
+
+#icon-set .circle-icon{
+    color: #000000;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #a2a4a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
