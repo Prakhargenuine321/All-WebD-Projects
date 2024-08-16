@@ -8,6 +8,7 @@
 html,body{
     width: 100%;
     height: 100%;
+    background-color: #000000;
 }
 
 #main{
@@ -21,7 +22,11 @@ html,body{
 }
 
 #nav{
+    background-color: #000000;
+    position:fixed;
+    top: 0%;
     width: 100%;
+    z-index: 10;
     padding: 30px 40px;
     color: #fff;
     display: flex;
@@ -50,7 +55,7 @@ html,body{
 
 #heading{
     padding: 0 30px;
-    margin-top: 95px;
+    margin-top: 180px;
 }
 
 #heading h1{
@@ -110,4 +115,129 @@ html,body{
     align-items: center;
     justify-content: center;
     font-weight: 600;
+}
+
+#second {
+    color: #fff;
+    padding-right: 10vw;
+    padding-top: 200px;
+    background-color: black;
+    width: 100%;
+    /* ** */
+    height: fit-content;
+
+}
+
+.elem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3vw 3vw;
+    padding-right: 0;
+    border-top: 1px solid #888;
+}
+
+.elem h1 {
+    text-transform: uppercase;
+    font-size: 7.2vw;
+    opacity: .7;
+}
+
+.elemlast {
+    border-bottom: 1px solid #888;
+}
+
+.elem img{
+    position: absolute;
+    z-index: 10;
+    height: 140%;
+    display: none;
+}
+
+#about{
+    width: 100%;
+    padding: 15vw 0;
+    color: #fff;
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+
+#text-about{
+    width: 45%;
+    padding: 0 110px;
+}
+
+#text-about p{
+    font-size: 19px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+#text-about h5{
+    color:#a2a4a3;
+}
+
+#text-about a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 6px 14px;
+    border-radius: 30px;
+}
+
+#about img{
+    width: 235px;
+}
+
+
+#subscribe{
+    color: white;
+    margin-left: 35px;
+    padding-bottom: 7vw;
+}
+
+#subscribe h5{
+    color: #a2a4a3;
+}
+
+#subscribe a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#subscribe i{
+    font-size: 18px;
+}
+
+#footer{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 35px;
+}
+
+#footer-left{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#footer-right{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer-right a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
 }
