@@ -12,9 +12,9 @@ html,body{
 }
 
 #mini-circle{
-    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
-    width: 10px;
-    height: 10px;
+    /* transition: all 1s cubic-bezier(0.19, 1, 0.22, 1); */
+    width: 12px;
+    height: 12px;
     background-color: #fff;
     position: absolute;
     z-index: 100;
@@ -162,10 +162,15 @@ html,body{
     border-top: 1px solid #888;
 }
 
+.elem a{
+    text-decoration: none;
+}
+
 .elem h1 {
     text-transform: uppercase;
     font-size: 7.2vw;
     opacity: .7;
+    color: #fff;
 }
 
 .elemlast {
@@ -176,7 +181,9 @@ html,body{
     position: absolute;
     z-index: 10;
     height: 140%;
-    display: none;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
 }
 
 #about{
@@ -294,6 +301,10 @@ html,body{
         width: 80%;
         margin: 0 auto;
         padding-right: 0;
+    }
+
+    #mini-circle{
+        display: none;
     }
 }
 
