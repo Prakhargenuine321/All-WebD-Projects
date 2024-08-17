@@ -3,11 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./loco.css" />
     <link rel="stylesheet" href="./cynthia.css" />
     <title>Prakhar :Software Developer</title>
   </head>
   <body>
+    <div id="mini-circle"></div>
     <div id="main">
       <div id="hero">
         <div id="nav">
@@ -15,10 +20,16 @@
           <h4>MENU+</h4>
         </div>
         <div id="heading">
-          <h1>Software</h1>
+          <div class="bounding">
+            <h1 class="bounding-elem">Software</h1>
+          </div>
           <div class="block-text">
-            <h1 id="secondh1">Developer</h1>
-            <h5>Based in India</h5>
+            <div class="bounding">
+              <h1 id="secondh1" class="bounding-elem">Developer</h1>
+            </div>
+            <div class="bounding">
+              <h5 class="bounding-elem">Based in India</h5>
+            </div>
           </div>
         </div>
         <div id="mini-heading">
@@ -27,8 +38,12 @@
           <h5>& build !"</h5>
         </div>
         <div id="hero-footer">
-          <a href="#">building own startup <i class="ri-arrow-right-up-line"></i></a>
-          <a href="#">MyGov Campus Ambassador <i class="ri-arrow-right-up-line"></i></a>
+          <a href="#"
+            >building own startup <i class="ri-arrow-right-up-line"></i
+          ></a>
+          <a href="#"
+            >MyGov Campus Ambassador <i class="ri-arrow-right-up-line"></i
+          ></a>
           <div id="icon-set">
             <div class="circle-icon"><i class="ri-arrow-down-line"></i></div>
             <div class="circle-icon"><i class="ri-arrow-down-line"></i></div>
@@ -37,32 +52,43 @@
       </div>
       <div id="second">
         <div class="elem">
-          <img src="./Pics/plug.png" alt="">
-            <h1>The Plug</h1>
-            <h5>2022</h5>
+          <img src="./Pics/plug.png" alt="" />
+          <h1>recent project</h1>
+          <h5>2024</h5>
         </div>
         <div class="elem">
-          <img src="./Pics/ixperience.png" alt="">
-            <h1>ixperience</h1>
-            <h5>2022</h5>
+          <img src="./Pics/ixperience.png" alt="" />
+          <h1>tech stack</h1>
+          <h5>2024</h5>
         </div>
-        <div class="elem elemlast"> 
-          <img src="./Pics/hudu.png" alt="">
-            <h1>hudu</h1>
-            <h5>2022</h5>
+        <div class="elem elemlast">
+          <img src="./Pics/hudu.png" alt="" />
+          <h1>github</h1>
+          <h5>2024</h5>
         </div>
       </div>
       <div id="about">
-        <img src="https://cynthiaugwu.com/images/cynthia.png" alt="">
+        <img src="./Pics/Untitled design.png" alt="" />
         <div id="text-about">
           <h5>(ABOUT ME)</h5>
-          <p>I'm a product designer with a passion for creating products that not only look good but also solve real problems. When I'm not sketching ideas on paper, you can find me binge-watching a Netflix series or playing video games. My design philosophy is simple: make it visually appealing, functional, and bring a smile to people's faces. I'm the designer you want on your team if you want to make people say 'I need that in my life!'.</p>
-          <a href="#">Let's talk</a>
+          <p>
+            I'm aspiring software developer with a passion for creating products
+            that not only look good but also solve real problems. When I'm not
+            wondering over ideas on paper, you can find me playing games both
+            indoor as well as outdoor. As I prepare to enter the professional
+            world, I'm excited to apply my knowledge and skills to real-world
+            challenges, eager to learn and collaborate in a vibrant tech
+            environment. I'm the developer you want on your team if you want to
+            make people say 'that's what I need!'.
+          </p>
+          <a href="#" target="_blank">Let's talk</a>
         </div>
       </div>
       <div id="subscribe">
         <h5>(FORGOT TO MENTION)</h5>
-        <a href="https://www.youtube.com/@busybugs" target="_blank">SUBSCRIBE TO MY YOUTUBE CHANNEL <i class="ri-arrow-right-up-line"></i></a>
+        <a href="https://www.youtube.com/@busybugs" target="_blank"
+          >SUBSCRIBE TO MY YOUTUBE CHANNEL <i class="ri-arrow-right-up-line"></i
+        ></a>
       </div>
       <div id="footer">
         <div id="footer-left">
@@ -70,12 +96,29 @@
           <h5>16:56 PM EST</h5>
         </div>
         <div id="footer-right">
-          <a href="https://dribbble.com/prakhargenuine9336">DRIBBBLE</a>
-          <a href="https://www.instagram.com/prakharpatel9336/">INSTAGRAM</a>
-          <a href="https://www.linkedin.com/in/prakhar-patel-450242248/">LINKEDIN</a>
-          <a href="https://x.com/Prakhargenuine">TWITTER</a>
+          <a href="https://dribbble.com/prakhargenuine9336" target="_blank"
+            >DRIBBBLE</a
+          >
+          <a href="https://www.instagram.com/prakharpatel9336/" target="_blank"
+            >INSTAGRAM</a
+          >
+          <a
+            href="https://www.linkedin.com/in/prakhar-patel-450242248/"
+            target="_blank"
+            >LINKEDIN</a
+          >
+          <a href="https://x.com/Prakhargenuine" target="_blank">TWITTER</a>
         </div>
       </div>
     </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
