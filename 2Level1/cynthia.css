@@ -11,16 +11,6 @@ html,body{
     background-color: #000000;
 }
 
-#mini-circle{
-    /* transition: all 1s cubic-bezier(0.19, 1, 0.22, 1); */
-    width: 12px;
-    height: 12px;
-    background-color: #fff;
-    position: absolute;
-    z-index: 100;
-    border-radius: 50%;
-}
-
 #main{
     width: 100%;
 }
