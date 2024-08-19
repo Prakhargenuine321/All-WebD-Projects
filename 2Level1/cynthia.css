@@ -353,3 +353,22 @@ html,body{
     }
 
 }
+
+@media (min-height:940px) {
+    #hero{
+        height:fit-content;
+    }
+}
+
+@media (max-height:365px) {
+    #heading h1{
+        font-size: 30px;
+    }
+    #heading{
+        margin-top: 20px;
+    }
+    #mini-heading {
+        margin-top: 20vh;
+        font-size: 10px;
+    }
+}
