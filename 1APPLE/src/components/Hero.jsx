@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 const Hero = () => {
 
     //to figure out the width of the screen
-    const [videoSrc, setVideoSrc] = useState(window.innerWidth < 760 ? smallHeroVideo : heroVideo)
+    const [videoSrc, setVideoSrc] = useState(window.innerWidth < 760 ? smallHeroVideo : heroVideo);
 
     //for dynamically handling the resoution of an video
     const handleVideoSrcSet = () => {
