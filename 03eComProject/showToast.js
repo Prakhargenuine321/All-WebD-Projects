@@ -12,7 +12,7 @@ export const showToast = (operation, id) => {
 
     document.body.appendChild(toast);
 
-    //automatically remove the toast after a few seconds
+    //automatically remove the toast after a few seconds using timeout
     setTimeout(()=>{
         toast.remove();
     }, 2000);
