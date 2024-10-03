@@ -1,4 +1,5 @@
 import { getCartProductFromLS } from "./getCartProductFromLS";
+import { showToast } from "./showToast";
 import { updateCartValue } from "./updateCartValue";
 
 getCartProductFromLS(); //by default it will run so that cart will
@@ -49,6 +50,9 @@ export const addToCard = (event, id, stock) => {
         })
         localStorage
         .setItem("cartProductLS", JSON.stringify(updatedCart));
+
+        //show toast when product added to cart
+        showToast("add", id);
     }
 
     if(existingProd){
@@ -65,4 +69,7 @@ export const addToCard = (event, id, stock) => {
 
     //function to update number of products in cart image
     updateCartValue(arrLocalStorageProduct);
+
+    //update and then now show toast 
+    showToast("add", id);
 };
